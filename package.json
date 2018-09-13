@@ -69,8 +69,14 @@
     "typescript": "^2.6.2"
   },
   "lint-staged": {
-    "*.js": ["eslint --no-ignore --fix", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.js": [
+      "eslint --no-ignore --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
@@ -98,6 +104,9 @@
         "statements": 90
       }
     },
-    "coverageReporters": ["text", "cobertura"]
+    "coverageReporters": [
+      "text",
+      "cobertura"
+    ]
   }
 }
