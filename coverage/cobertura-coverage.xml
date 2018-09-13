@@ -1,0 +1,879 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="208" lines-covered="1" line-rate="0.0048" branches-valid="137" branches-covered="0" branch-rate="0" timestamp="1513686626076" complexity="0" version="0.1">
+  <sources>
+    <source>/mnt/0a2fa2b3-9076-4cfd-b106-50a11b194aae/desenv/projetos/enquete/dash/enquete-dashboard-frontend</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="0.0333" branch-rate="0">
+      <classes>
+        <class name="App.js" filename="src/App.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="2" signature="()V">
+              <lines>
+                <line number="6" hits="2"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src/index.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="8" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="12" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="8" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="22" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="26" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="registerServiceWorker.js" filename="src/registerServiceWorker.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="register" hits="0" signature="()V">
+              <lines>
+                <line number="111" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="115" hits="0"/>
+              </lines>
+            </method>
+            <method name="registerValidSW" hits="0" signature="()V">
+              <lines>
+                <line number="117" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="117" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="117" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="117" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="124" hits="0"/>
+              </lines>
+            </method>
+            <method name="checkValidServiceWorker" hits="0" signature="()V">
+              <lines>
+                <line number="124" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="0" signature="()V">
+              <lines>
+                <line number="125" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_9)" hits="0" signature="()V">
+              <lines>
+                <line number="127" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_10)" hits="0" signature="()V">
+              <lines>
+                <line number="127" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_11)" hits="0" signature="()V">
+              <lines>
+                <line number="128" hits="0"/>
+              </lines>
+            </method>
+            <method name="unregister" hits="0" signature="()V">
+              <lines>
+                <line number="128" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_13)" hits="0" signature="()V">
+              <lines>
+                <line number="128" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="109" hits="0" branch="true" condition-coverage="0% (0/3)"/>
+            <line number="111" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="112" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="115" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="116" hits="0" branch="false"/>
+            <line number="117" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="121" hits="0" branch="false"/>
+            <line number="124" hits="0" branch="false"/>
+            <line number="125" hits="0" branch="false"/>
+            <line number="126" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="127" hits="0" branch="false"/>
+            <line number="128" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.container" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="App.js" filename="src/container/App.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="6" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Root.js" filename="src/container/Root.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="13" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="24" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="11" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="15" hits="0" branch="false"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="34" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.container.enquetes" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="Action.js" filename="src/container/enquetes/Action.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="listIsLoading" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="getDataSuccess" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="getDataFailure" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="fetchList" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="28" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="34" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="0" signature="()V">
+              <lines>
+                <line number="35" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="0" signature="()V">
+              <lines>
+                <line number="39" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="27" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="28" hits="0" branch="false"/>
+            <line number="29" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="34" hits="0" branch="false"/>
+            <line number="36" hits="0" branch="false"/>
+            <line number="37" hits="0" branch="false"/>
+            <line number="40" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Enquete.js" filename="src/container/enquetes/Enquete.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="16" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="19" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="23" hits="0"/>
+              </lines>
+            </method>
+            <method name="bindAction" hits="0" signature="()V">
+              <lines>
+                <line number="29" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="31" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="35" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="24" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="30" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="35" hits="0" branch="false"/>
+            <line number="37" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="EnqueteBar.js" filename="src/container/enquetes/EnqueteBar.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="9" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="12" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="16" hits="0"/>
+              </lines>
+            </method>
+            <method name="bindAction" hits="0" signature="()V">
+              <lines>
+                <line number="22" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="24" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="28" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="23" hits="0" branch="false"/>
+            <line number="24" hits="0" branch="false"/>
+            <line number="28" hits="0" branch="false"/>
+            <line number="30" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Reducer.js" filename="src/container/enquetes/Reducer.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="10" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="32" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Resources.js" filename="src/container/enquetes/Resources.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="1" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="7" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src/container/enquetes/index.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="4" hits="0"/>
+              </lines>
+            </method>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="6" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.container.respostas" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="Action.js" filename="src/container/respostas/Action.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="listIsLoading" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="getDataSuccess" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="getDataFailure" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="fetchList" hits="0" signature="()V">
+              <lines>
+                <line number="27" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="28" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="31" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="0" signature="()V">
+              <lines>
+                <line number="32" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_8)" hits="0" signature="()V">
+              <lines>
+                <line number="36" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="27" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="28" hits="0" branch="false"/>
+            <line number="29" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="33" hits="0" branch="false"/>
+            <line number="34" hits="0" branch="false"/>
+            <line number="37" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Reducer.js" filename="src/container/respostas/Reducer.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="10" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="19" hits="0" branch="false"/>
+            <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="32" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Resources.js" filename="src/container/respostas/Resources.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Respostas.js" filename="src/container/respostas/Respostas.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+            <method name="_interopRequireWildcard" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="16" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="19" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="23" hits="0"/>
+              </lines>
+            </method>
+            <method name="bindAction" hits="0" signature="()V">
+              <lines>
+                <line number="29" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_6)" hits="0" signature="()V">
+              <lines>
+                <line number="31" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_7)" hits="0" signature="()V">
+              <lines>
+                <line number="35" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="true" condition-coverage="0% (0/12)"/>
+            <line number="20" hits="0" branch="false"/>
+            <line number="24" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="30" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="35" hits="0" branch="false"/>
+            <line number="37" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src/container/respostas/index.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="4" hits="0"/>
+              </lines>
+            </method>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="6" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.reducers" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="constants.js" filename="src/reducers/constants.js" line-rate="0" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="false"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="11" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src/reducers/index.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.scripts.settings" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="env.js" filename="src/scripts/settings/env.js" line-rate="0" branch-rate="0">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="true" condition-coverage="0% (0/6)"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="10" hits="0" branch="false"/>
+            <line number="11" hits="0" branch="false"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="14" hits="0" branch="false"/>
+            <line number="16" hits="0" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+            <line number="18" hits="0" branch="false"/>
+            <line number="21" hits="0" branch="false"/>
+            <line number="22" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="26" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+          </lines>
+        </class>
+        <class name="index.js" filename="src/scripts/settings/index.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="1" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="5" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.store" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="configureStore.js" filename="src/store/configureStore.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="12" hits="0"/>
+              </lines>
+            </method>
+            <method name="configureStore" hits="0" signature="()V">
+              <lines>
+                <line number="12" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="30" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="13" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="28" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)"/>
+            <line number="30" hits="0" branch="false"/>
+            <line number="31" hits="0" branch="false"/>
+            <line number="36" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.stories.screens.charts" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="Barcharts.js" filename="src/stories/screens/charts/Barcharts.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="6" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="2" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="7" hits="0" branch="false"/>
+            <line number="20" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.stories.screens.layer" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="EnqueteComponents.js" filename="src/stories/screens/layer/EnqueteComponents.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="7" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="0" signature="()V">
+              <lines>
+                <line number="23" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="0" signature="()V">
+              <lines>
+                <line number="25" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="0" signature="()V">
+              <lines>
+                <line number="41" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="0" signature="()V">
+              <lines>
+                <line number="42" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="25" hits="0" branch="false"/>
+            <line number="26" hits="0" branch="false"/>
+            <line number="38" hits="0" branch="false"/>
+            <line number="42" hits="0" branch="false"/>
+            <line number="43" hits="0" branch="false"/>
+            <line number="49" hits="0" branch="false"/>
+            <line number="50" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.stories.screens.layout" line-rate="0" branch-rate="0">
+      <classes>
+        <class name="ComponentLayout.js" filename="src/stories/screens/layout/ComponentLayout.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="6" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="11" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="false"/>
+            <line number="5" hits="0" branch="false"/>
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="19" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Footer.js" filename="src/stories/screens/layout/Footer.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="7" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="21" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Header.js" filename="src/stories/screens/layout/Header.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="4" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="8" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="false"/>
+            <line number="4" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="9" hits="0" branch="false"/>
+            <line number="42" hits="0" branch="false"/>
+          </lines>
+        </class>
+        <class name="Section.js" filename="src/stories/screens/layout/Section.js" line-rate="0" branch-rate="0">
+          <methods>
+            <method name="_interopRequireDefault" hits="0" signature="()V">
+              <lines>
+                <line number="3" hits="0"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="0" signature="()V">
+              <lines>
+                <line number="7" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="false"/>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)"/>
+            <line number="8" hits="0" branch="false"/>
+            <line number="44" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
