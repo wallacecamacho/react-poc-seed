@@ -1,7 +1,6 @@
 /* @flow */
 
 import React from 'react';
-import EnqueteChartPergunta from '../../../container/enquetes/EnqueteChartPergunta';
 
 class Section extends React.Component {
 
@@ -36,8 +35,6 @@ class Section extends React.Component {
           <div className="section">
               <p className="caption">Dashboard das perguntas utilizadas na enquete.</p>
           <div className="divider"></div>
-
-          <EnqueteChartPergunta enquete={this.props.enquete}/>
 
         </div>
 
